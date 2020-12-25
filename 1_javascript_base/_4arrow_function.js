@@ -90,6 +90,8 @@ console.log(sumAgain(1,3));
 // 9. Callback function using function expresion
 // 조건이 될 인수를 받고
 // 맞을때와 아닐 때의 콜백 함수를 지정하는 방식으로 자주 사용
+// 너무 계속 해서 이어서 사용하면 callback 지옥으로 안좋은 코드가 됨
+// 간결하게 깨끗한 로직으로 사용할 수 있도록 코드 작성
 function randomQuiz(answer, printYes,printNo){
     if(answer =='love you'){
         printYes()
