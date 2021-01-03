@@ -19,3 +19,21 @@ https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_ap
 https://backend-intro.vlpt.us/2/01.html
 
 3. mongoose 설치/ 연결
+
+# 4. 회원가입 기능
+1. 서버 클라이언트 통신의 이해
+2. bodyparse 이용
+yarn body-parser
+3. 포스트맨 사용 로그인 기능 시험해보기
+
+
+# 5. nodemon 
+소스를 변경할 때 그걸 감지해서 자동으로 서버를 재 시작해주는 tool
+1. nodemon 다운로드 
+yarn add nodemon
+
+2. packge.json에 명령어 추가
+"scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
